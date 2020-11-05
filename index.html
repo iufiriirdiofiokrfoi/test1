@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!-- 連結 jQuery Mobile -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="themes/aaa.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="hedgehog.png" sizes="60x60" type="image/x-icon">
+    <title>1013</title>
+</head>
+
+
+
+<body>
+    <!--首頁-->
+    <div data-role="page" id="page00">
+
+        <div data-role="header">
+
+            <h1>伊美奇巧克力</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+                <p>人生像是一盒巧克力<br>來伊美奇體驗各式人生吧！</p>
+                <img src="dark.jpg" alt="" height="550" width="500" class="darkimg"><br>                
+
+
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page01">
+                    <img src="../_assets/img/album-bb.jpg">
+                    <h2>關於伊美奇</h2>
+                    <p>Broken Bells</p></a>
+                </li>
+            
+            
+                <li><a href="#page02">
+                    <img src="../_assets/img/album-hc.jpg">
+                    <h2>巧克力即享</h2>
+                    <p>Hot Chip</p></a>
+                </li>
+            
+            
+                <li><a href="#page03">
+                    <img src="../_assets/img/album-p.jpg">
+                    <h2>關於我們</h2>
+                    <p>Phoenix</p></a>
+                </li>
+
+                <li><a href="#page04">
+                    <img src="../_assets/img/album-p.jpg">
+                    <h2>門市據點</h2>
+                    <p>Phoenix</p></a>
+                </li>
+            </ul>
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+
+           
+            
+            
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+     <!--關於伊美奇-->
+     <div data-role="page" id="page01">
+
+        <div data-role="header">
+
+            <h1>關於伊美奇</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <h2><b>簡介</b></h2>
+            <p>
+                伊美奇是最新創立的巧克力專賣店鋪，由一群充滿熱血的大學年輕人所經營。<br>
+                <br>
+                在這裡，我們提供最高級精緻的美味巧克力與舒適的環境，你可以在網站上直接訂購巧克力，<br>
+                <br>
+                我們會在最短的時間裡送貨到府而且全網免運費。
+            </p>
+            
+            
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+           
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slideup">巧克力即享</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slide">關於我們</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <!--巧克力即享-->
+    <div data-role="page" id="page02">
+
+        <div data-role="header">
+
+            <h1>巧克力即享</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content" >
+            
+            <h3>一、店長推薦 Boss's favorite</h3>
+            <img src="Bo.jpg" alt="" height="250" width="200"><br>
+            <h3>二、人氣熱銷 Popular</h3>
+            <img src="Popular.jpg" alt="" height="250" width="200"><br>
+            <h3>三、最新產品 Newest</h3>
+            <img src="Newestdd.jpg" alt="" height="250" width="200"><br>
+            <h3>四、黑巧克力 Black Chocolate</h3>
+            <img src="Bl.jpg" alt="" height="250" width="200"><br>
+            <h3>五、牛奶巧克力 Milk Chocolate</h3>
+            <img src="Milk.jpg" alt="" height="250" width="200"><br>
+            <h3>六、堅果巧克力 Nut Chocolate</h3>
+            <img src="Nut.jpg" alt="" height="250" width="200"><br>
+                       
+        </div><!-- /content -->
+        
+        <div data-role="footer" data-position="fixed">
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets" data-transition="slideup">關於伊美奇</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slide">關於我們</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+    <!--關於我們-->
+    <div data-role="page" id="aboutus" data-dialog="true">
+
+        <div data-role="header">
+
+            <h1>關於我們</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <h2>創業理念</h2>
+            <p>伊美奇的創辦人熱愛創新與挑戰，也因此，伊美奇的商品總是充滿著不一樣的驚喜，豐富多元。<br>
+                <br>
+                精緻與美味是我們的堅持，能以最低的價格帶給顧客們最實惠的享受更是我們的喜悅。<br>
+                <br>
+                伊美奇希望我們自身的存在能激發並帶領所有熱愛巧克力的年輕人，去深入巧克力的領域，並且最終能享受己製 作的過程。
+            </p>
+            
+
+        </div><!-- /content -->
+
+        <div data-role="footer" data-position="fixed">
+
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets" data-transition="slideup">關於伊美奇</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slide">巧克力即享</a></li>
+                    <li><a href="#page04" data-icon="bullets" data-transition="slidedown">門市據點</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+    <!--門市據點-->
+    <div data-role="page" id="page04">
+
+        <div data-role="header">
+
+            <h1>門市據點</h1>
+
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+
+            <h2>台北</h2>
+            <div class="aa">
+                <p>台北<br>天龍門市 <img src="images/pd.png" alt="" height="30" width="36">台北市士林區天母北路一段1號</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d57822.73840513151!2d121.46824416438125!3d25.07066150245195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5aSp6b6N6ZaA5biCLeWPsOWMl-W4guWjq-ael-WNgOWkqeavjeWMl-i3r-S4gOautTHomZ8!5e0!3m2!1szh-TW!2stw!4v1592397824300!5m2!1szh-TW!2stw"
+                width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0">
+            </iframe>
+            <br>
+            <h2>台中</h2>
+            <div class="aa">
+                <p>台中<br>北屯門市<img src="images/pd.png" alt="" height="30" width="36">台中市北屯區北屯路444號</p>
+            </div>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.7659435895152!2d120.69919031498947!3d24.179939984379395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917f2b2e74be5%3A0x954287f6b8e986c2!2zNDA25Y-w5Lit5biC5YyX5bGv5Y2A5YyX5bGv6LevNDQ06Jmf!5e0!3m2!1szh-TW!2stw!4v1592481306624!5m2!1szh-TW!2stw" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+            <br>
+            <h2>台南</h2>
+            <div class="aa">
+                <P>台南<br>全糖門市<img src="images/pd.png" alt="" height="30" width="36">台南市東區崇德路100號</P>
+            </div>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.1868876513145!2d120.21628851473632!3d22.980154184974527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e769cef573703%3A0x28bdb092083320d!2zNzAx5Y-w5Y2X5biC5p2x5Y2A5bSH5b636LevMTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1592481666797!5m2!1szh-TW!2stw" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+            <br>
+
+        </div><!-- /content -->
+       
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page00" data-icon="bullets" data-transition="fade">回首頁</a></li>
+                    <li><a href="#page01" data-icon="bullets" data-transition="slideup">關於伊美奇</a></li>
+                    <li><a href="#page02" data-icon="bullets" data-transition="slide">巧克力即享</a></li>
+                    <li><a href="#aboutus" data-icon="bullets" data-transition="slidedown">關於我們</a></li>
+                </ul>
+            </div>
+
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+</body>
+</html>
